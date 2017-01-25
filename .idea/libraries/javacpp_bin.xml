@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="javacpp-bin">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Program_playground/JAVA/ComputerVision/javacpp-bin" />
+      <root url="file://$USER_HOME$/Program_playground/JAVA/ComputerVision/javacv-bin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Program_playground/JAVA/ComputerVision/javacv-bin/samples" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Program_playground/JAVA/ComputerVision/javacpp-bin" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Program_playground/JAVA/ComputerVision/javacv-bin" recursive="false" />
+  </library>
+</component>
