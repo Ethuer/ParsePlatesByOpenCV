@@ -11,11 +11,12 @@ import static org.bytedeco.javacpp.opencv_imgcodecs.cvLoadImage;
 import static org.bytedeco.javacpp.opencv_imgcodecs.cvSaveImage;
 import static org.bytedeco.javacpp.opencv_imgproc.*;
 
+
 public class Main {
 
     public static void main(String[] args) {
 
-        IplImage src = cvLoadImage("CpLNCRNA3-37C_25microg_pro_ml_CalcofluorWhite_day2.jpg");
+        IplImage src = cvLoadImage("/home/ethur/LNCrna_Local_processes/playWithCV/CpLNCRNA3-37C_25microg_pro_ml_CalcofluorWhite_day2.jpg");
         IplImage grey = cvCreateImage(cvGetSize(src),8,1);
 
         cvCvtColor(src, grey, CV_BGR2GRAY);
